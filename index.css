@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.top-bar{
+    background:#1e73e8;
+    color:#fff;
+    text-align:center;
+    padding:8px;
+    font-size:14px;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    background:#fff;
+    box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+.logo span{
+    color:#1e73e8;
+}
+
+.nav-links a{
+    margin-left:20px;
+    text-decoration:none;
+    color:#333;
+    font-weight:500;
+}
+
+.nav-links a:hover{
+    color:#1e73e8;
+}
+
+.hero{
+    height:500px;
+    background:url("https://images.unsplash.com/photo-1503387762-592deb58ef4e") center/cover no-repeat;
+    position:relative;
+}
+
+.hero-overlay{
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,0.6);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:#fff;
+}
+
+.hero-overlay h1{
+    font-size:60px;
+    color:orange;
+}
+
+.services{
+    padding:70px 60px;
+    background:#fff;
+    text-align:center;
+}
+
+.services h2{
+    font-size:32px;
+    margin-bottom:40px;
+    letter-spacing:2px;
+}
+
+.service-grid{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.service-card{
+    width:300px;
+}
+
+.service-card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.buttons{
+    text-align:center;
+    margin:40px 0;
+}
+
+.btn{
+    padding:12px 25px;
+    border-radius:6px;
+    font-weight:bold;
+    border:none;
+    cursor:pointer;
+    margin:10px;
+}
+
+.preview{
+    background:#fff;
+    border:2px solid #1e73e8;
+    color:#1e73e8;
+}
+
+.buy{
+    background:#5cb85c;
+    color:#fff;
+}
+
+.details{
+    display:flex;
+    gap:40px;
+    padding:60px;
+}
+
+.details-left{
+    width:40%;
+}
+
+.details-left p{
+    margin-bottom:12px;
+}
+
+.details-right{
+    width:60%;
+    color:#555;
+    line-height:1.7;
+}
+
+footer{
+    background:#222;
+    color:#ccc;
+    padding:60px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+
+footer h3{
+    color:#fff;
+    margin-bottom:15px;
+}
+
+footer ul{
+    list-style:none;
+}
+
+footer li{
+    margin-bottom:10px;
+}
+
+footer a{
+    color:#ccc;
+    text-decoration:none;
+}
+
+footer a:hover{
+    color:#1e73e8;
+}
+
+.copy{
+    background:#111;
+    color:#999;
+    text-align:center;
+    padding:10px;
+    font-size:14px;
+}
